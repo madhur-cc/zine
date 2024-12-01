@@ -1,0 +1,14 @@
+echo '<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PDF Zine Converter</title>
+</head>
+<body>
+    <h1>PDF Zine Converter</h1>
+    <form action="/convert" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".pdf">
+        <input type="submit" value="Convert to Zine">
+    </form>
+</body>
+</html>' > templates/index.html
